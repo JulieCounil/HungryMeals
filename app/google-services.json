@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "790068332407",
+    "firebase_url": "https://hungrymealsv1.firebaseio.com",
+    "project_id": "hungrymealsv1",
+    "storage_bucket": "hungrymealsv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790068332407:android:3327ad0ccd96c824",
+        "android_client_info": {
+          "package_name": "com.android.hungrymeals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790068332407-p0sriu88nequt8a1tkvkf65h9l156fov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfulrG5H2eYY5do-N-Vg1NU0wgAFfvB48"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
