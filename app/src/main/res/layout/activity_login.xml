@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="199dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="163dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtusername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txtusername"
+        android:layout_width="81dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="166dp"
+        android:text="UserName :"
+        app:layout_constraintBottom_toTopOf="@+id/txtpwd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/password"
+
+        android:layout_width="203dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="66dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtpwd"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="93dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="83dp"
+        android:text="Login"
+        android:onClick="login"
+        app:layout_constraintBottom_toBottomOf="@+id/signUp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="89dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="200dp"
+        android:layout_marginEnd="43dp"
+        android:text="Sign Up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txtregister"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="41dp"
+        android:text="New here? Register!"
+        app:layout_constraintBottom_toTopOf="@+id/signUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <TextView
+        android:id="@+id/txtpwd"
+        android:layout_width="81dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="320dp"
+        android:layout_marginStart="16dp"
+        android:text="Password :"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
