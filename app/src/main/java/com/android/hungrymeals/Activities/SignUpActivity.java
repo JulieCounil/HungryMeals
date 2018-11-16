@@ -19,7 +19,7 @@ public class SignUpActivity  extends AppCompatActivity {
 
         setOnClickListener(R.id.Cancel, LoginActivity.class);
 
-        private hungrymeal1 mDataBase;
+        private hungrymeals mDataBase;
         mDatabase= FirebaseDatabase.getInstance().getReference();
     }
 
