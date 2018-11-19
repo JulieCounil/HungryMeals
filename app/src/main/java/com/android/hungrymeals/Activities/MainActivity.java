@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         setOnClickListener(R.id.search_icon, SearchActivity.class);
         setOnClickListener(R.id.addRecipe_icon,AddActivity.class);
-        setOnClickListener(R.id.profile_icon,ProfileActivity.class);
+        setOnClickListener(R.id.profile_icon,SignUpActivity.class);
 
         setUsersAdapter();
         //framelayout
